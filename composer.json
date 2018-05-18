@@ -1,0 +1,23 @@
+{
+    "name": "freefzl/fzl",
+    "description": "test",
+    "authors": [
+        {
+            "name": "fzl",
+            "email": "286949751@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Freefzl\\Fzl\\": "/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Freefzl\\Fzl\\ArticleProvider"
+            ]
+        }
+    }
+}
